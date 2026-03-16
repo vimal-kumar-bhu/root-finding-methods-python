@@ -11,22 +11,18 @@ All methods include:
 
 ## Methods Implemented
 
-1. **Fixed-Point Iteration Method**  
+ **Fixed-Point Iteration Method**  
    - Iteratively computes the root using the formula \(x = g(x)\)  
    - Convergence depends on the choice of g(x)
-
-2. **Bisection Method**  
+**Bisection Method**  
    - Uses interval halving where the function changes sign  
    - Guaranteed convergence for continuous functions
-
-3. **Regula-Falsi Method (False Position)**  
+ **Regula-Falsi Method (False Position)**  
    - Similar to Bisection but uses linear interpolation for faster convergence
-
-4. **Newton-Raphson Method**  
+ **Newton-Raphson Method**  
    - Uses derivative of the function  
    - Converges faster but requires differentiable function
-
-5. **Secant Method**  
+ **Secant Method**  
    - Similar to Newton-Raphson but does not require derivative  
    - Uses previous two points to approximate slope
 
@@ -44,11 +40,4 @@ Each method computes the root of f(x) and generates:
 - **Root Plot** on function graph  
 - **Error Convergence Plot**
 
----
 
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/vimal-kumar-bhu/root-finding-methods-python.git
